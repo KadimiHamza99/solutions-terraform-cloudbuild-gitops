@@ -31,6 +31,7 @@ resource "google_compute_instance" "http_server" {
     }
   }
 
+
   network_interface {
     subnetwork = "${var.subnet}"
 
